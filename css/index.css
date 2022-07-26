@@ -41,7 +41,7 @@ nav {
 }
 
 .left-section > h3 {
-    font-size: xxx-large;
+    font-size: 50px;
 }
 
 .left-section > h1 {
@@ -56,12 +56,12 @@ nav {
 .action-btns > button {
     display: flex;
     justify-content: center;
-    background-color: #ff1e00;
+    background-color: #fa533d;
     /* border-radius: 10%; */
     font-size: 30px;
     color: white;
     margin: 0 auto;
-    border: #ff1e00;
+    border: #fa533d;
     padding: 20px;
     /* round corners of a button */
     border-radius: 50px;
@@ -80,7 +80,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    scale: 1.5;
     margin: 0;
     font-size: 30px;
     justify-content: flex-start;
@@ -89,7 +88,7 @@ nav {
 .sub-headline > img {
     display: flex;
     justify-content: center;
-    background-color: #ff1e00;
+    background-color: #fa533d;
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
@@ -105,15 +104,56 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* align items on top of each other */
+    /* background-color: #a72d2d; */
+    padding: 20px;
+    /* margin: 0 auto; */
 }
+
+.headphone-div > img {
+    /* background-color: #fa533d; */
+    /* padding: 10px; */
+    margin: 10px;
+    align-items: center;
+    margin-left: -80px;
+}
+
+.headphone-div > img[src="./images/discount.svg"] {
+
+    margin-top: 280px;
+    margin-left: 20px;
+    z-index: 1;
+    filter: drop-shadow(6px 5px 2px rgba(26, 26, 26, 0.4));
+    /* shadow of a svg image */
+}
+
+.discount-content{
+
+    /* align-items: center; */
+    /* background-color: #7d2929; */
+    margin-top: 280px;
+    margin-left: -140px;
+    z-index: 2;
+    color: white;
+    font: inherit;
+    font-size: 20px;
+}
+
+.discount-content > h1 {
+    margin-top: -30px;
+    font-size: 50px;
+}
+
+
 .dots {
     display: flex;
     flex-direction: row;
     /* move flexbox istems near to each other */
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     padding: 20px;
     width: 200px;
+    margin-left: 250px;
 
 }
 
@@ -133,4 +173,17 @@ nav {
     border-radius: 50%;
     border: 15px solid #000000;
     margin: 0 auto;
+}
+
+.action-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #fa533d;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+    border: #fa533d;
+    padding: 20px;
+    border-radius: 50px;
+    width: 300px;
 }
